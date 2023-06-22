@@ -12,3 +12,4 @@ tsm/TFC/wandb/
 tsm/baselines/TS2vec/leave_one_out_finetune.py # TODO: Add back later with example  
 tsm/baselines/TS2vec/test.ipynb
 wandb
+*.npy

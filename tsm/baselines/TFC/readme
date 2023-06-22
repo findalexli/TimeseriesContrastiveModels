@@ -1,0 +1,12 @@
+Note: This is an updated version of the proposed TF-C model. 
+The origional author replaced the CNN blocks with 2-layer transformer as the encoder architecture in this latest version. However, it was not mentioned in the NeurIPS paper. We saw that the transformer encoder does not have positional encoding, which is a key component of the transformer. We fixed it with a ConvNet as prospoed in the paper.
+
+
+# Self-Supervised Contrastive Pre-Training For Time Series via Time-Frequency Consistency
+
+#### Authors: [Xiang Zhang](http://xiangzhang.info/) (xiang.alan.zhang@gmail.com), [Ziyuan Zhao](https://github.com/mims-harvard/Raindrop)(ziyuanzhao@college.harvard.edu), <br/>
+####  [Theodoros Tsiligkaridis](https://github.com/mims-harvard/Raindrop)(ttsili@ll.mit.edu), [Marinka Zitnik](https://zitniklab.hms.harvard.edu/) (marinka@hms.harvard.edu)
+
+#### [Project website](https://zitniklab.hms.harvard.edu/projects/TF-C/)
+
+#### TF-C Paper: [NeurIPS 2022](https://openreview.net/forum?id=OJ4mMfGKLN), [Preprint](https://arxiv.org/abs/2206.08496)

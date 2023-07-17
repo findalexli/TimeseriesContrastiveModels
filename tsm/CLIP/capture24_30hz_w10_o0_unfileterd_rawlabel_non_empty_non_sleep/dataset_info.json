@@ -1,0 +1,26 @@
+{
+  "citation": "",
+  "description": "",
+  "features": {
+    "x": {
+      "feature": {
+        "feature": {
+          "dtype": "float32",
+          "_type": "Value"
+        },
+        "_type": "Sequence"
+      },
+      "_type": "Sequence"
+    },
+    "pid": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "y": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": ""
+}
